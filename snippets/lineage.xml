@@ -46,6 +46,7 @@
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
+  <project path="packages/apps/Jelly" name="eelo/android_packages_apps_Jelly" remote="eelo" />
   <project path="packages/apps/SetupWizard" name="eelo/android_packages_apps_SetupWizard" remote="eelo" />
   <project path="packages/apps/Updater" name="eelo/android_packages_apps_Updater" remote="eelo" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
