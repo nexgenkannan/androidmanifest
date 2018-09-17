@@ -9,12 +9,21 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+repo init -u https://gitlab.e.foundation/e/os/android.git -b eelo-0.1
+
 ```
 Then to sync up:
 ```
 repo sync
 ```
+
+If you have network issue during sync, try to sync with
+```
+repo sync -c -f -j4 --force-sync --no-clone-bundle --no-tags
+```
+
+Please adjust `-j` to suit your needs. Find help [here](https://source.android.com/setup/build/known-issues) and [here](https://source.android.com/setup/build/downloading#troubleshooting-network-issues) for sync issues.
+
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
 
