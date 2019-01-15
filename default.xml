@@ -3,7 +3,7 @@
 
   <remote  name="e"
            fetch="https://gitlab.e.foundation"
-           revision="eelo-0.2"/>
+           revision="v1-oreo"/>
 
   <remote  name="github"
            fetch="https://github.com"
