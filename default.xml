@@ -15,5 +15,5 @@
  // 
 //  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="AndroidScripts" name="nexgenkannan/AndroidScripts" />
-	<project path="abi/cpp" name="platform/abi/cpp" remote="asop"/>
+//	<project path="abi/cpp" name="platform/abi/cpp" remote="asop"/>
 </manifest>
