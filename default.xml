@@ -1,7 +1,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com" />
   <remote  name="github"
            fetch="https://github.com"/>
   <default revision="refs/tags/android-4.0.1_r1"
@@ -13,6 +13,5 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-
+  <project path="AndroidScripts" name="nexgenkannan/AndroidScripts" />
 </manifest>
