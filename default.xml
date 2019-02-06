@@ -2,7 +2,7 @@
 
 
  <remote  name="github"
-          fetch="git@github.com"/>
+          fetch="https://github.com"/>
   <default  remote="github"
 		revision="refs/heads/master"
            sync-j="4" />
