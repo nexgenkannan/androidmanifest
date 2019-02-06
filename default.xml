@@ -8,5 +8,7 @@
            sync-j="4" />
 
   <project path="Android" name="nexgenkannan/androidrepo1" />
+  <project path="Android" name="nexgenkannan/androidrepo2" />
+  <project path="Android" name="nexgenkannan/androidrepo3" />
 
 </manifest>
