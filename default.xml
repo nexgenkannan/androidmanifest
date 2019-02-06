@@ -7,8 +7,8 @@
 		revision="refs/heads/master"
            sync-j="4" />
 
-  <project path="./" name="nexgenkannan/androidrepo1" />
-  <project path="./" name="nexgenkannan/androidrepo2" />
-  <project path="./" name="nexgenkannan/androidrepo3" />
+  <project path="Android1" name="nexgenkannan/androidrepo1" />
+  <project path="Android2" name="nexgenkannan/androidrepo2" />
+  <project path="Android3" name="nexgenkannan/androidrepo3" />
 
 </manifest>
