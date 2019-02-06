@@ -7,6 +7,6 @@
 		revision="refs/heads/master"
            sync-j="4" />
 
-  <project path="AndroidScripts" name="nexgenkannan/AndroidScripts" />
+  <project path="Android" name="nexgenkannan/androidrepo1" />
 
 </manifest>
