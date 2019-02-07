@@ -22,5 +22,5 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 
 </project>
-<project path="build/kati" name="kannan/LineageOS_android_build_kati" groups="pdk,tradefed" remote="gridsteam" clone-depth="0"></project>
+<project path="build/kati" name="kannan/LineageOS_android_build_kati" groups="pdk,tradefed" />
 </manifest>
