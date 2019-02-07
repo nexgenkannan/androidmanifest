@@ -23,4 +23,8 @@
 
 </project>
 <project path="build/kati" name="kannan/LineageOS_android_build_kati" groups="pdk,tradefed" />
+	<project path="build/soong" name="kannan/LineageOS_android_build_soong" groups="pdk,tradefed" remote="gridsteam" clone-depth="0"></project>
+<project path="art" name="kannan/LineageOS_android_art" groups="pdk" remote="gridsteam" clone-depth="0"></project>
+<project path="bionic" name="kannan/LineageOS_android_bionic" groups="pdk" remote="gridsteam" clone-depth="0"></project>
+<project path="bootable/recovery" name="kannan/LineageOS_android_bootable_recovery" groups="pdk" remote="gridsteam" clone-depth="0"></project>
 </manifest>
