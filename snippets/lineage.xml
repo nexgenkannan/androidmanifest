@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="android" name="kannan/e_os_android" groups="" remote="gridsteam" />
+<project path="device/lineage/sepolicy" name="kannan/e_os_android_device_lineage_sepolicy" groups="" remote="gridsteam" />
+<project path="external/bash" name="kannan/LineageOS_android_external_bash" groups="" remote="gridsteam" />
+<project path="external/exfat" name="kannan/LineageOS_android_external_exfat" groups="" remote="gridsteam" />
+<project path="external/fuse" name="kannan/LineageOS_android_external_fuse" groups="" remote="gridsteam" />
+<project path="external/htop" name="kannan/LineageOS_android_external_htop" groups="" remote="gridsteam" />
+<project path="external/libncurses" name="kannan/LineageOS_android_external_libncurses" groups="" remote="gridsteam" />
+<project path="external/libnfc-nxp" name="kannan/LineageOS_android_external_libnfc-nxp" groups="" remote="gridsteam" />
+<project path="external/libtar" name="kannan/LineageOS_android_external_libtar" groups="" remote="gridsteam" />
+<project path="external/lineage-sdk-api-coverage" name="kannan/LineageOS_android_external_lineage-sdk-api-coverage" groups="" remote="gridsteam" />
+<project path="external/nano" name="kannan/LineageOS_android_external_nano" groups="" remote="gridsteam" />
+<project path="external/ntfs-3g" name="kannan/LineageOS_android_external_ntfs-3g" groups="" remote="gridsteam" />
+<project path="external/one-true-awk" name="kannan/LineageOS_android_external_one-true-awk" groups="" remote="gridsteam" />
+<project path="external/openssh" name="kannan/LineageOS_android_external_openssh" groups="" remote="gridsteam" />
+<project path="external/p7zip" name="kannan/LineageOS_android_external_p7zip" groups="" remote="gridsteam" />
+<project path="external/pigz" name="kannan/LineageOS_android_external_pigz" groups="" remote="gridsteam" />
+<project path="external/rsync" name="kannan/LineageOS_android_external_rsync" groups="" remote="gridsteam" />
+<project path="external/unrar" name="kannan/LineageOS_android_external_unrar" groups="" remote="gridsteam" />
+<project path="external/vim" name="kannan/LineageOS_android_external_vim" groups="" remote="gridsteam" />
+<project path="external/zip" name="kannan/LineageOS_android_external_zip" groups="" remote="gridsteam" />
+<project path="hardware/lineage/interfaces" name="kannan/LineageOS_android_hardware_lineage_interfaces" groups="" remote="gridsteam" >
+ <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
+</project>
+<project path="hardware/lineage/lineagehw" name="kannan/LineageOS_android_hardware_lineage_lineagehw" groups="" remote="gridsteam" />
+<project path="hardware/lineage/telephony" name="kannan/LineageOS_android_hardware_lineage_telephony" groups="" remote="gridsteam" />
+<project path="lineage-sdk" name="kannan/e_os_android_lineage-sdk" groups="" remote="gridsteam" />
+<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="kannan/LineageOS_android_packages_apps_OpenWeatherMapProvider" groups="" remote="gridsteam" />
+<project path="packages/apps/AppDrawer" name="kannan/LineageOS_android_packages_apps_AppDrawer" groups="" remote="gridsteam" />
+<project path="packages/apps/Eleven" name="kannan/LineageOS_android_packages_apps_Eleven" groups="" remote="gridsteam" />
+<project path="packages/apps/Exchange" name="kannan/LineageOS_android_packages_apps_Exchange" groups="" remote="gridsteam" />
+<project path="packages/apps/FMRadio" name="kannan/LineageOS_android_packages_apps_FMRadio" groups="" remote="gridsteam" />
+<project path="packages/apps/LineageCustomizer" name="kannan/LineageOS_android_packages_apps_LineageCustomizer" groups="" remote="gridsteam" />
+<project path="packages/apps/LineageParts" name="kannan/e_os_android_packages_apps_LineageParts" groups="" remote="gridsteam" />
+<project path="packages/apps/LockClock" name="kannan/LineageOS_android_packages_apps_LockClock" groups="" remote="gridsteam" />
+<project path="packages/apps/Profiles" name="kannan/LineageOS_android_packages_apps_Profiles" groups="" remote="gridsteam" />
+<project path="packages/apps/Recorder" name="kannan/LineageOS_android_packages_apps_Recorder" groups="" remote="gridsteam" />
+<project path="packages/apps/Jelly" name="kannan/e_os_android_packages_apps_Jelly" groups="" remote="gridsteam" />
+<project path="packages/apps/SetupWizard" name="kannan/e_os_android_packages_apps_SetupWizard" groups="" remote="gridsteam" />
+<project path="packages/apps/Updater" name="kannan/e_os_android_packages_apps_Updater" groups="" remote="gridsteam" />
+<project path="packages/overlays/Lineage" name="kannan/LineageOS_android_packages_overlays_Lineage" groups="" remote="gridsteam" />
+<project path="packages/providers/WeatherProvider" name="kannan/LineageOS_android_packages_providers_WeatherProvider" groups="" remote="gridsteam" />
+<project path="prebuilts/lineage-sdk" name="kannan/LineageOS_android_prebuilts_lineage-sdk" groups="" remote="gridsteam" clone-depth="1" />
+<project path="system/extras/su" name="kannan/LineageOS_android_system_extras_su" groups="" remote="gridsteam" />
+<project path="vendor/lineage" name="kannan/e_os_android_vendor_lineage" groups="" remote="gridsteam" />
+<project path="device/qcom/sepolicy" name="kannan/LineageOS_android_device_qcom_sepolicy" groups="" remote="gridsteam" />
+<project path="external/ant-wireless/ant_native" name="kannan/LineageOS_android_external_ant-wireless_ant_native" groups="" remote="gridsteam" />
+<project path="external/ant-wireless/ant_service" name="kannan/LineageOS_android_external_ant-wireless_ant_service" groups="" remote="gridsteam" />
+<project path="external/ant-wireless/antradio-library" name="kannan/LineageOS_android_external_ant-wireless_antradio-library" groups="" remote="gridsteam" />
+<project path="external/brctl" name="kannan/LineageOS_android_external_brctl" groups="" remote="gridsteam" />
+<project path="external/connectivity" name="kannan/LineageOS_android_external_connectivity" groups="" remote="gridsteam" />
+<project path="external/ebtables" name="kannan/LineageOS_android_external_ebtables" groups="" remote="gridsteam" />
+<project path="external/json-c" name="kannan/LineageOS_android_external_json-c" groups="" remote="gridsteam" />
+<project path="external/powertop" name="kannan/LineageOS_android_external_powertop" groups="" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/apq8084" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/msm8916" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/msm8952" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/msm8960" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/msm8974" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/msm8994" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/msm8996" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/msm8998" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/audio-caf/sdm845" name="kannan/LineageOS_android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="gridsteam" />
+<project path="hardware/qcom/bt-caf" name="kannan/LineageOS_android_hardware_qcom_bt" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/apq8084" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/msm8916" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/msm8952" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/msm8960" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/msm8974" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/msm8994" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/msm8996" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/msm8998" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/display-caf/sdm845" name="kannan/LineageOS_android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gridsteam" />
+<project path="hardware/qcom/fm" name="kannan/LineageOS_android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/apq8084" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/msm8916" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/msm8952" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/msm8960" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/msm8974" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/msm8994" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/msm8996" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/msm8998" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/media-caf/sdm845" name="kannan/LineageOS_android_hardware_qcom_media" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/neuralnetworks/hvxservice" name="kannan/LineageOS_android_hardware_qcom_neuralnetworks_hvxservice" groups="" remote="gridsteam" >
+<copyfile dest="hardware/qcom/Android.bp" src="Android.bp"/>
+</project>
+<project path="hardware/qcom/power" name="kannan/LineageOS_android_hardware_qcom_power" groups="qcom,pdk" remote="gridsteam" />
+<project path="hardware/qcom/thermal" name="kannan/LineageOS_android_hardware_qcom_thermal" groups="" remote="gridsteam" />
+<project path="hardware/qcom/vr" name="kannan/LineageOS_android_hardware_qcom_vr" groups="" remote="gridsteam" />
+<project path="hardware/qcom/wlan-caf" name="kannan/LineageOS_android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="gridsteam" />
+<project path="hardware/ril-caf" name="kannan/LineageOS_android_hardware_ril" groups="pdk" remote="gridsteam" />
+<project path="system/qcom" name="kannan/LineageOS_android_system_qcom" groups="qcom" remote="gridsteam" />
+<project path="system/tools/dtbtool" name="kannan/LineageOS_android_system_tools_dtbtool" groups="" remote="gridsteam" />
+<project path="vendor/codeaurora/telephony" name="kannan/LineageOS_android_vendor_codeaurora_telephony" groups="" remote="gridsteam" />
+<project path="vendor/nxp/interfaces/opensource/nfc" name="kannan/LineageOS_android_vendor_nxp_interfaces_opensource_nfc" groups="" remote="gridsteam" >
+ <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+</project>
+<project path="vendor/nxp/opensource/external/libnfc-nci" name="kannan/LineageOS_android_vendor_nxp_opensource_external_libnfc-nci" groups="" remote="gridsteam" />
+<project path="vendor/nxp/opensource/frameworks" name="kannan/LineageOS_android_vendor_nxp_opensource_frameworks" groups="" remote="gridsteam" />
+<project path="vendor/nxp/opensource/packages/apps/Nfc" name="kannan/LineageOS_android_vendor_nxp_opensource_packages_apps_Nfc" groups="" remote="gridsteam" />
+<project path="vendor/qcom/opensource/cryptfs_hw" name="kannan/LineageOS_android_vendor_qcom_opensource_cryptfs_hw" groups="" remote="gridsteam" />
+<project path="vendor/qcom/opensource/dataservices" name="kannan/LineageOS_android_vendor_qcom_opensource_dataservices" groups="" remote="gridsteam" />
+<project path="vendor/qcom/opensource/interfaces" name="kannan/LineageOS_android_vendor_qcom_opensource_interfaces" groups="" remote="gridsteam" >
+ <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+</project>
+<project path="vendor/qcom/opensource/rcs-service" name="kannan/LineageOS_android_vendor_qcom_opensource_rcs-service" groups="" remote="gridsteam" />
+<project path="prebuilts/prebuiltapks" name="kannan/e_os_android_prebuilts_prebuiltapks" groups="" remote="gridsteam" />
+<project path="lineage/contributors-cloud-generator" name="kannan/LineageOS_contributors-cloud-generator" groups="tools" remote="gridsteam" />
+<project path="lineage/scripts" name="kannan/LineageOS_scripts" groups="tools" remote="gridsteam" />
+</manifest>
