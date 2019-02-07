@@ -2,7 +2,7 @@
 
 
  <remote  name="gridsteam"
-          fetch="gridsteam.com"/>
+          fetch="https://gridsteam.com"/>
   <default  remote="gridsteam"
 		revision="refs/heads/master"
            sync-j="4" />
