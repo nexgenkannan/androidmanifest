@@ -547,7 +547,4 @@
 <project path="tools/loganalysis" name="kannan/platform_tools_loganalysis" groups="nopresubmit,pdk,tradefed" remote="gridsteam" />
 <project path="tools/repohooks" name="kannan/platform_tools_repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" remote="gridsteam" />
 <project path="tools/test/connectivity" name="kannan/platform_tools_test_connectivity" groups="pdk" remote="gridsteam" />
-<project path="tools/tradefederation/contrib" name="kannan/platform_tools_tradefederation_contrib" groups="pdk,tradefed" remote="gridsteam" />
-<project path="tools/tradefederation/core" name="kannan/platform_tools_tradefederation" groups="pdk,tradefed" remote="gridsteam" />
-
 </manifest>
