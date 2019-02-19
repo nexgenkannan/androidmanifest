@@ -489,7 +489,7 @@
 <project path="tools/test/connectivity" name="kannan/platform_tools_test_connectivity"/>
 <project path="tools/tradefederation" name="kannan/platform_tools_tradefederation"/>
 
-
+<include name="snippets/cm.xml" />
 
   
 
