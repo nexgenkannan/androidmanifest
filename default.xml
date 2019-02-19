@@ -7,15 +7,10 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-<project path="build" name="kannan/e_os_android_build">
- <copyfile src="core/root.mk" dest="Makefile" />
-</project>
+
 <project path="build/blueprint" name="kannan/platform_build_blueprint"/>
 <project path="build/kati" name="kannan/LineageOS_android_build_kati"/>
-<project path="build/soong" name="kannan/platform_build_soong">
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-</project>
+
 
 
   
