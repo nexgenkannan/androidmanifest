@@ -3,7 +3,7 @@
    <remote  name="gridsteam"
           fetch="https://gridsteam.com"/>
   <default  remote="gridsteam"
-		revision="refs/heads/master"
+		revision="refs/heads/eelo-0.1"
            sync-j="4" />
 
   <!-- AOSP Projects -->
